@@ -1,0 +1,43 @@
+/*BODY*/
+
+body {
+    background-color: #f4f4f4;
+    font-size: 30px;
+}
+
+/*Header*/
+
+.miLogo {
+    width: 290px;
+}
+
+
+header {
+    border-color: solid 20px #e6e4e4  ;
+}
+
+.miLink:hover {
+    background-color:  #d0c1be ;
+    color:  #a69b9b ;
+}
+
+/*CORRUSEL*/
+
+.carousel-item {
+    transition: 2s ease;
+}
+
+.carouselPresent {
+    font-size: 100px;
+    color:#f4f4f4;
+    text-transform: uppercase;
+}
+
+.tittleLinks {
+color: #a69b9b;
+background-color:#d0c1be ;
+text-transform: uppercase;
+text-align: center;
+font-weight: bold;
+padding: 15px;
+}
