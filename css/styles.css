@@ -27,14 +27,12 @@ header {
     transition: 2s ease;
 }
 
-.--bs-border-color {
+.carouselPresent {
     font-size: 100px;
     color:#f4f4f4;
     text-transform: uppercase;
     border-radius: 10px;
     font-weight: bold;
-    border-color: #cebcb4;
-    padding: 20px;
 }
 
 .tittleLinks {
@@ -63,6 +61,7 @@ margin-top: 30px;
     border-radius: 10px;
     border-color: #cebcb4;
     padding: 10px;
+
 }
 
 .colorBottom {
@@ -78,4 +77,13 @@ margin-top: 30px;
     font-size: 30px;
     text-transform: uppercase;
     color: #cebcb4;
+}
+
+footer {
+	background-color:#f4f4f4;
+    color:#a69b9b;
+    text-align: center;
+    font-weight: bold;
+    border-top:#cebcb4 solid 4px;
+    display: grid;
 }
