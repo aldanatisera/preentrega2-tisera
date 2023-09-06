@@ -27,10 +27,14 @@ header {
     transition: 2s ease;
 }
 
-.carouselPresent {
+.--bs-border-color {
     font-size: 100px;
     color:#f4f4f4;
     text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: bold;
+    border-color: #cebcb4;
+    padding: 20px;
 }
 
 .tittleLinks {
@@ -40,14 +44,38 @@ text-transform: uppercase;
 text-align: center;
 font-weight: bold;
 padding: 15px;
+padding: 15px;
+margin-top: 30px;
 }
 
 /*CARD*/
 
 .photoCard {
-    margin-top: 30px;
     border-color: #cebcb4;
     background-color: #a69b9b;
-    padding: 15px;
+    padding: 10px;
     border-radius: 20px;
+    text-align: center;
+}
+
+.cardTotal {
+    margin-top: 30px;
+    border-radius: 10px;
+    border-color: #cebcb4;
+    padding: 10px;
+}
+
+.colorBottom {
+    color:#f4f4f4;
+    border-radius: 20px;
+    background-color:#d0c1be;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #cebcb4;
 }
