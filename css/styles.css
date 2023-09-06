@@ -34,10 +34,20 @@ header {
 }
 
 .tittleLinks {
-color: #a69b9b;
-background-color:#d0c1be ;
+color: #f4f4f4 ; 
+background-color:#cebcb4 ;
 text-transform: uppercase;
 text-align: center;
 font-weight: bold;
 padding: 15px;
+}
+
+/*CARD*/
+
+.photoCard {
+    margin-top: 30px;
+    border-color: #cebcb4;
+    background-color: #a69b9b;
+    padding: 15px;
+    border-radius: 20px;
 }
