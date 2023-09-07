@@ -1,3 +1,4 @@
+
 /*BODY*/
 
 body {
@@ -7,17 +8,29 @@ body {
 
 /*Header*/
 
-.miLogo {
+.mi-logo:hover {
+    width: 292px;
+}
+
+.mi-logo {
     width: 290px;
+    lighting-color: #a69b9b;
 }
 
 
 header {
-    border-color: solid 20px #e6e4e4  ;
+    border-color: solid 20px #e6e4e4 ;
 }
 
-.miLink:hover {
+.mi-link:hover {
     background-color:  #d0c1be ;
+    color:  #a69b9b ;
+    border-radius: 30px;
+    opacity: 10px; 
+    padding: 5px;
+}
+
+.mi-link {
     color:  #a69b9b ;
 }
 
@@ -27,7 +40,7 @@ header {
     transition: 2s ease;
 }
 
-.carouselPresent {
+.carousel-present {
     font-size: 100px;
     color:#f4f4f4;
     text-transform: uppercase;
@@ -35,7 +48,7 @@ header {
     font-weight: bold;
 }
 
-.tittleLinks {
+.tittle-links {
 color: #f4f4f4 ; 
 background-color:#cebcb4 ;
 text-transform: uppercase;
@@ -46,9 +59,30 @@ padding: 15px;
 margin-top: 30px;
 }
 
+.tittle-linkstwo {
+    text-align: center;
+    color: #cebcb4;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.tittle-linkstwo p {
+    color: gray;
+    text-align: center;
+    text-transform: none;
+    font-weight:lighter;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
 /*CARD*/
 
-.photoCard {
+.photo-card:hover {
+    color: #ded9d9;
+}
+
+.photo-card {
     border-color: #cebcb4;
     background-color: #a69b9b;
     padding: 10px;
@@ -56,15 +90,23 @@ margin-top: 30px;
     text-align: center;
 }
 
-.cardTotal {
+.card-total:hover {
+    color: #cebcb4;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.card-total {
     margin-top: 30px;
     border-radius: 10px;
     border-color: #cebcb4;
     padding: 10px;
-
 }
 
-.colorBottom {
+.color-bottom {
     color:#f4f4f4;
     border-radius: 20px;
     background-color:#d0c1be;
@@ -79,6 +121,11 @@ margin-top: 30px;
     color: #cebcb4;
 }
 
+.card-body {
+    background-color: #ded9d9 ;
+   
+}
+
 footer {
 	background-color:#f4f4f4;
     color:#a69b9b;
@@ -86,4 +133,5 @@ footer {
     font-weight: bold;
     border-top:#cebcb4 solid 4px;
     display: grid;
+    margin-top: 50px;
 }
