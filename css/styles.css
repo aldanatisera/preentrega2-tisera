@@ -1,8 +1,9 @@
+/*INDEX*/
 
 /*BODY*/
 
 body {
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     font-size: 30px;
 }
 
@@ -23,21 +24,25 @@ header {
 }
 
 .mi-link:hover {
-    background-color:  #d0c1be ;
-    color:  #a69b9b ;
+    background-color: #d7df23;
+    color:  #ff66c4;
     border-radius: 30px;
     opacity: 10px; 
     padding: 5px;
 }
 
 .mi-link {
-    color:  #a69b9b ;
+    color:  #ff66c4 ;
 }
 
 /*CORRUSEL*/
 
 .carousel-item {
     transition: 2s ease;
+}
+
+.carousel-indicators {
+    size: 50px;
 }
 
 .carousel-present {
@@ -50,7 +55,7 @@ header {
 
 .tittle-links {
 color: #f4f4f4 ; 
-background-color:#cebcb4 ;
+background-color:#d7df23 ;
 text-transform: uppercase;
 text-align: center;
 font-weight: bold;
@@ -61,7 +66,7 @@ margin-top: 30px;
 
 .tittle-linkstwo {
     text-align: center;
-    color: #cebcb4;
+    color: #ff66c4;
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 20px;
@@ -84,14 +89,14 @@ margin-top: 30px;
 
 .photo-card {
     border-color: #cebcb4;
-    background-color: #a69b9b;
+    background-color:#d7df23;
     padding: 10px;
     border-radius: 20px;
     text-align: center;
 }
 
 .card-total:hover {
-    color: #cebcb4;
+    color:#ff66c4;
     border-radius: 5px;
     margin-top: 15px;
     margin-left: 15px;
@@ -102,14 +107,14 @@ margin-top: 30px;
 .card-total {
     margin-top: 30px;
     border-radius: 10px;
-    border-color: #cebcb4;
+    border-color:#d7df23;
     padding: 10px;
 }
 
 .color-bottom {
     color:#f4f4f4;
     border-radius: 20px;
-    background-color:#d0c1be;
+    background-color:#d7df23;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -118,20 +123,71 @@ margin-top: 30px;
 .card-title {
     font-size: 30px;
     text-transform: uppercase;
-    color: #cebcb4;
+    color:gray;
 }
 
 .card-body {
-    background-color: #ded9d9 ;
+    background-color: #ffffff ;
    
 }
 
 footer {
-	background-color:#f4f4f4;
-    color:#a69b9b;
+	background-color:#ffffff;
+    color:#ff66c4;
     text-align: center;
-    font-weight: bold;
-    border-top:#cebcb4 solid 4px;
+    font-weight:20px;
+    border-top:#d7df23 solid 4px;
     display: grid;
     margin-top: 50px;
+    text-transform:capitalize;
 }
+
+
+/*FOTOS.HTML*/
+
+.container-titulo {
+    text-align: center;
+    text-transform:uppercase;
+    color:#ffffff;
+    margin-top: 60px;
+    background-color: #d7df23;
+}
+
+.subtitulo-container {
+    text-align: center;
+    color:#ff66c4;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.photos-container {
+    display: grid;
+    margin: 20px;
+    grid-template-columns:repeat(3, minmax(100px, 1fr));
+    width: 100%;
+    gap: 20px;
+}
+
+.myphotos-container:hover {
+    border: 10px solid #ff66c4;
+    box-shadow: 50px #d7df23;
+}
+
+.myphotos-container {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #d7df23;
+    border-radius: 25px;
+    max-width: 100%;
+}
+
+.myphotos-container p {
+    background-color:#ff66c4;
+    color:#ffffff;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
