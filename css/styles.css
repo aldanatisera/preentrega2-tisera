@@ -25,14 +25,14 @@ header {
 
 .mi-link:hover {
     background-color: #d7df23;
-    color:  #ff66c4;
+    color:  #d4bcb4;
     border-radius: 30px;
     opacity: 10px; 
     padding: 5px;
 }
 
 .mi-link {
-    color:  #ff66c4 ;
+    color:  #d4bcb4 ;
 }
 
 /*CORRUSEL*/
@@ -66,7 +66,7 @@ margin-top: 30px;
 
 .tittle-linkstwo {
     text-align: center;
-    color: #ff66c4;
+    color: #d4bcb4;
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 20px;
@@ -96,7 +96,7 @@ margin-top: 30px;
 }
 
 .card-total:hover {
-    color:#ff66c4;
+    color: #d4bcb4;
     border-radius: 5px;
     margin-top: 15px;
     margin-left: 15px;
@@ -133,7 +133,7 @@ margin-top: 30px;
 
 footer {
 	background-color:#ffffff;
-    color:#ff66c4;
+    color: #d4bcb4;
     text-align: center;
     font-weight:20px;
     border-top:#d7df23 solid 4px;
@@ -155,7 +155,7 @@ footer {
 
 .subtitulo-container {
     text-align: center;
-    color:#ff66c4;
+    color: #d4bcb4;
     margin-top: 20px;
     margin-bottom: 30px;
 }
@@ -169,7 +169,7 @@ footer {
 }
 
 .myphotos-container:hover {
-    border: 10px solid #ff66c4;
+    border: 10px solid  #d4bcb4;
     box-shadow: 50px #d7df23;
 }
 
@@ -184,10 +184,62 @@ footer {
 }
 
 .myphotos-container p {
-    background-color:#ff66c4;
+    background-color:#cebcb4;
     color:#ffffff;
     border-radius: 20px;
     margin-top: 20px;
     padding: 10px;
+}
+
+/*FORM contactos*/
+
+form {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    font-weight: 100%;
+    margin-bottom: 5px;
+    border: #a4a49c;
+  }
+  
+  
+  input, textarea [type="text"] {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    border: 2px solid #a4a49c;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .btnForm {
+    background-color: #d4bcb4;
+    color: grey;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+.contacto-tittle {
+    text-align: center;
+    text-transform:uppercase;
+    color:#ffffff;
+    margin-top: 60px;
+    background-color: #d7df23;
+}
+
+.contacto-subtittle {
+    text-align: center;
+    color:  #d4bcb4;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
