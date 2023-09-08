@@ -159,6 +159,7 @@ header {
     color: #d4bcb4;
     margin-top: 20px;
     margin-bottom: 30px;
+    font-weight: bold;
 }
 
 .photos-container {
@@ -289,4 +290,98 @@ header {
     color:#d7df23;
 }
 
+/*HISTORIA*/
 
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+  }
+  
+  .column {
+    background-color:#d7df23;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 40px;
+
+  }
+
+  .column p {
+    color: gray;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-top: 25px;
+    font-weight: bold;
+  }
+
+.img-fluid {
+    border-radius: 20px;
+}
+
+
+.texthistory-container {
+    text-align: center;
+    color: gray;
+    font-size: 30px;
+
+}
+
+.texthistory-container:hover {
+    border-radius: 10px;
+}
+
+.subtittle-historia {
+    text-align: center;
+    font-weight: bold;
+    color:#d4bcb4;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 20px; 
+    justify-items: center; 
+  }
+  
+  .card {
+    margin-top: 50px;
+    max-width: 100%;
+    padding: 20px;
+    background-color: #d7df23;
+    border: 2px solid #cebcb4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.656);
+    overflow: hidden; 
+    border-radius: 25px;
+  }
+  
+  .card-image {
+    max-width: 100%; 
+    height:max-content; 
+    padding: 15px;
+    border-radius: 20px;
+    justify-items: center;
+    color: #d7df23;
+    background-color:#ffffff;
+
+  }
+  
+  .card-content {
+    padding: 16px;
+    text-align: center;
+    color: gray;
+    background-color:#ffffff;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  
+  .card h2 {
+    font-size: 3.5rem;
+    margin: 0;
+  }
+  
+  .card p {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
