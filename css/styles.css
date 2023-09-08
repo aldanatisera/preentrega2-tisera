@@ -45,13 +45,9 @@ header {
     size: 50px;
 }
 
-.button-container {
-    color: #d7df23;
-}
-
 .carousel-present {
-    font-size: 100px;
-    color:#f4f4f4;
+    font-size: 50px;
+    color:#d7df23;
     text-transform: uppercase;
     border-radius: 10px;
     font-weight: bold;
@@ -133,15 +129,17 @@ header {
    
 }
 
-footer {
+.footer-container {
+    display: grid;
 	background-color:#ffffff;
     color: #d4bcb4;
     text-align: center;
-    font-weight:20px;
+    font-size: 25px;
     border-top:#d7df23 solid 4px;
     display: grid;
     margin-top: 50px;
     text-transform:capitalize;
+    width: 100%;
 }
 
 
@@ -215,7 +213,7 @@ footer {
   
   input, textarea [type="text"] {
     display: block;
-    width: 50%;
+    width: 100%;
     padding: 10px;
     border: 2px solid #d7df23;
     border-radius: 5px;
@@ -253,15 +251,18 @@ footer {
 }
 
 .fieldset-container {
+    display: grid;
     border-radius: 20px;
     padding: 20px;
     color: #d4bcb4;
     background-color:#f4f4f4;
+    width: 100%;
 }
 
 .form-container {
     margin-top: 20px;
     text-align: center;
+    width: 100%;
 }
 
 .legend-container {
@@ -287,3 +288,5 @@ footer {
     border-radius: 15px;
     color:#d7df23;
 }
+
+
