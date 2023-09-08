@@ -35,6 +35,12 @@ header {
     color:  #d4bcb4 ;
 }
 
+.fras-container p {
+    border: #d7df23;
+    margin: 10px;
+    border-radius: 25px;
+}
+
 /*CORRUSEL*/
 
 .carousel-item {
